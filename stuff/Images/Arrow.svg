@@ -1,0 +1,18 @@
+<svg width="50" height="100" viewBox="0 0 200 500" fill="#EEE2DF" xmlns="http://www.w3.org/2000/svg">
+  <rect
+    x="15"
+    y="225"
+    width="250"
+    height="50"
+    rx="25"
+    transform="rotate(-50 40 250)"
+    fill="#C69795"/>
+  <rect
+    x="15"
+    y="225"
+    width="250"
+    height="50"
+    rx="25"
+    transform="rotate(50 40 250)"
+    fill="#C69795"/>
+</svg>

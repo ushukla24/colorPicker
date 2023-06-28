@@ -1,0 +1,14 @@
+/* Apply To All */
+:root {
+  --text: rgb(238, 226, 223);
+  --darktext: rgb(198, 151, 149);
+  --back: rgb(198, 151, 149);
+  --lightback: rgb(238, 226, 223);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}

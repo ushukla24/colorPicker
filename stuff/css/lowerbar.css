@@ -1,0 +1,40 @@
+/* network and show/hide button container */
+#network-container {
+  display: inline-block;
+  position: absolute;
+  top: calc(100vh - 50px);
+  left: 50%;
+  transform: translate(-50%, -200px);
+  transition: transform 0.3s;
+}
+
+/* show or hide button */
+#show-hide-network {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -25px) rotate(90deg) scaleX(-1);
+  background: var(--lightback);
+  transition: transform 0.3s;
+}
+
+#show-hide-network:hover {
+  cursor: pointer;
+}
+
+/* p5js canvas displaying network */
+#defaultCanvas0 {
+  display: block;
+  transform: translateY(-50px);
+}
+
+/* Lower Bar Div */
+#lower-bar {
+  position: absolute;
+  width: 100vw;
+  height: 50px;
+  bottom: 0;
+  background: var(--back);
+  border-top: 4px solid black;
+  box-sizing: content-box;
+}

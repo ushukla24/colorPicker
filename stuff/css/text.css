@@ -1,0 +1,37 @@
+/* white and black text divs */
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 1rem;
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  font-size: 5rem;
+  font-family: sans-serif;
+  z-index: 0;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.text:hover {
+  cursor: pointer;
+}
+
+/* white text option */
+#white-text {
+  color: white;
+  left: 0;
+  border-right: 2px solid black;
+  outline: none;
+  background: black;
+}
+
+/* black text option */
+#black-text {
+  color: black;
+  right: 0;
+  border-left: 2px solid black;
+  outline: none;
+  background: white;
+}
